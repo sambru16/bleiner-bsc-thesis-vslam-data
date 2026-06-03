@@ -1,0 +1,59 @@
+name: dmvioresult
+dataset: 4seasons
+build_type: RelWithDebInfo
+num_iter: 3
+only_seq: 7
+results_name: dmvioresult-4seasons-2026-05-24--20-30-57
+config_name: workpc
+date_run: 2026-05-24 20:30:57.485642
+realtime: false
+temporary: false
+noimu: false
+quiet: false
+output_type: console
+withgui: false
+custom_dmvio_args: ''
+dmvio_settings: 4seasons.yaml
+gdb: false
+git_hash: e306328098e08facbec1bfd45d22e19c77a3ccad
+commit_message: Add tsFile parameter
+commit_time: 2024-10-27 02:14:34
+diff_empty: true
+eval_tool_command: run_dmvio.py --output=console --dataset=4seasons 
+  --dmvio_settings=4seasons.yaml --iter=3 --only_seq=7
+eval_tools_git_hash: 4d26603a6d0ad21ab98c7ddf19b349dc5d9364f5
+eval_tools_commit_message: Handle csv comments in IMU interpolation
+eval_tools_diff_empty: false
+command_0: /home/bleini/dev/dm-vio/cmake-build-relwithdebinfo/bin/dmvio_dataset 
+  files=./cam0 
+  calib=/home/bleini/dev/dm-vio/configs/4seasons_calib/undistorted_calib304.txt 
+  imuFile=../imu_interp.txt 
+  imuCalib=/home/bleini/dev/dm-vio/configs/4seasons_calib/camchain.yaml 
+  gtFile=../GNSSPoses_IMU.txt mode=1 preset=0 nogui=1 useimu=1 quiet=0 
+  settingsFile=/home/bleini/dev/dm-vio/configs/4seasons.yaml 
+  resultsPrefix=/home/bleini/dev/dm-vio-results/dmvioresult-4seasons-2026-05-24--20-30-57/4seasons_neighbor_2020-10-07_14-53-52_0/
+  start=2 end=6373
+cwd0: 
+  /home/bleini/dev/4seasons_test/4seasons/neighbor_2020-10-07_14-53-52/undistorted_images
+command_1: /home/bleini/dev/dm-vio/cmake-build-relwithdebinfo/bin/dmvio_dataset 
+  files=./cam0 
+  calib=/home/bleini/dev/dm-vio/configs/4seasons_calib/undistorted_calib304.txt 
+  imuFile=../imu_interp.txt 
+  imuCalib=/home/bleini/dev/dm-vio/configs/4seasons_calib/camchain.yaml 
+  gtFile=../GNSSPoses_IMU.txt mode=1 preset=0 nogui=1 useimu=1 quiet=0 
+  settingsFile=/home/bleini/dev/dm-vio/configs/4seasons.yaml 
+  resultsPrefix=/home/bleini/dev/dm-vio-results/dmvioresult-4seasons-2026-05-24--20-30-57/4seasons_neighbor_2020-10-07_14-53-52_1/
+  start=2 end=6373
+cwd1: 
+  /home/bleini/dev/4seasons_test/4seasons/neighbor_2020-10-07_14-53-52/undistorted_images
+command_2: /home/bleini/dev/dm-vio/cmake-build-relwithdebinfo/bin/dmvio_dataset 
+  files=./cam0 
+  calib=/home/bleini/dev/dm-vio/configs/4seasons_calib/undistorted_calib304.txt 
+  imuFile=../imu_interp.txt 
+  imuCalib=/home/bleini/dev/dm-vio/configs/4seasons_calib/camchain.yaml 
+  gtFile=../GNSSPoses_IMU.txt mode=1 preset=0 nogui=1 useimu=1 quiet=0 
+  settingsFile=/home/bleini/dev/dm-vio/configs/4seasons.yaml 
+  resultsPrefix=/home/bleini/dev/dm-vio-results/dmvioresult-4seasons-2026-05-24--20-30-57/4seasons_neighbor_2020-10-07_14-53-52_2/
+  start=2 end=6373
+cwd2: 
+  /home/bleini/dev/4seasons_test/4seasons/neighbor_2020-10-07_14-53-52/undistorted_images
