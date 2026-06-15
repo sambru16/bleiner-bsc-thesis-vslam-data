@@ -1,4 +1,4 @@
-Sequence;Condition;Model;Run;ATE RMSE in m;RPE RMSE;RPE RMSE - 1m;RPE RMSE - 10m;Loss of Tracking;Tracking rate in %;Total Frames;Tracked Frames;
+Sequence;Condition;Model;Run;ATE RMSE;RPE RMSE;RPE RMSE - 1m;RPE RMSE - 10m;Loss of Tracking;Tracking rate in %;Total Frames;Tracked Frames;
 city_loop_3_train;Overcast;ORB-SLAM3 Stereo;1;11.243666;0.055004;0.248458;1.550213;0;100;7704;7704;
 city_loop_3_train;Overcast;ORB-SLAM3 Stereo;2;11.097244;0.058737;0.255029;1.618663;0;100;7704;7704;
 city_loop_3_train;Overcast;ORB-SLAM3 Stereo;3;23.787033;0.090288;1.010706;7.470870;0;100;7704;7704;
